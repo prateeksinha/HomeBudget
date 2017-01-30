@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:text="Expenses List"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textColor="#000000"
+        android:padding="12dp"
+        />
+    <View
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="#000000"
+        />
+    <ListView
+        android:id="@+id/lvExpences"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:dividerHeight="1dp"
+        android:divider="@color/colorPrimaryDark"
+        android:scrollbars="none"
+        />
+
+</LinearLayout>
